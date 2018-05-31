@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{ACD8F993-000E-4B3A-A752-18ECC68F3ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{D749D3F2-53EE-43CE-B9EA-8E6B9C5BF6F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirOSApp", "ShirOSApp\ShirOSApp.csproj", "{40C649DC-2C84-4316-B774-F4FF9A97F6F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD8F993-000E-4B3A-A752-18ECC68F3ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD8F993-000E-4B3A-A752-18ECC68F3ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD8F993-000E-4B3A-A752-18ECC68F3ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD8F993-000E-4B3A-A752-18ECC68F3ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D749D3F2-53EE-43CE-B9EA-8E6B9C5BF6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D749D3F2-53EE-43CE-B9EA-8E6B9C5BF6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D749D3F2-53EE-43CE-B9EA-8E6B9C5BF6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D749D3F2-53EE-43CE-B9EA-8E6B9C5BF6F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C649DC-2C84-4316-B774-F4FF9A97F6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C649DC-2C84-4316-B774-F4FF9A97F6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C649DC-2C84-4316-B774-F4FF9A97F6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C649DC-2C84-4316-B774-F4FF9A97F6F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

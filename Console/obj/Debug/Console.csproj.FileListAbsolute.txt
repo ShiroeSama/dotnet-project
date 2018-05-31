@@ -1,0 +1,14 @@
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\Console.exe.config
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\Database.mdf
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\Database_log.ldf
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\Console.exe
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\Console.pdb
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\EntityFramework.dll
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\EntityFramework.SqlServer.dll
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\Model.dll
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\Model.pdb
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\EntityFramework.xml
+U:\Cours\DotNet\ProjectDotNet\Console\bin\Debug\EntityFramework.SqlServer.xml
+U:\Cours\DotNet\ProjectDotNet\Console\obj\Debug\Console.csprojResolveAssemblyReference.cache
+U:\Cours\DotNet\ProjectDotNet\Console\obj\Debug\Console.exe
+U:\Cours\DotNet\ProjectDotNet\Console\obj\Debug\Console.pdb
