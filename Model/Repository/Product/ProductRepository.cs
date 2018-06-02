@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Model.Repository.Product
 {
     using Entity.Product;
+    using Service.Builder;
 
     public class ProductRepository : Repository
     {
@@ -20,7 +21,8 @@ namespace Model.Repository.Product
 
         public List<Product> List()
         {
-            return this.Context.Product.ToList();
+            // return this.Context.Product.ToList();
+            return ProductBuilder.createList();
         }
     }
 }

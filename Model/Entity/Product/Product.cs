@@ -16,7 +16,7 @@ namespace Model.Entity.Product
         public String Description { get; set; }
         public Boolean Actif { get; set; }
         public int Stock { get; set; }
-        public float Prix { get; set; }
+        public Double Price { get; set; }
 
         // Foreign Keys
         public int CategoryId { get; set; }
@@ -45,7 +45,7 @@ namespace Model.Entity.Product
             Property(p => p.Description).IsRequired().HasMaxLength(50);
             Property(p => p.Actif).IsRequired();
             Property(p => p.Stock).IsRequired();
-            Property(p => p.Prix).IsRequired();
+            Property(p => p.Price).IsRequired();
 
             // Foreign Keys
             Property(p => p.CategoryId);

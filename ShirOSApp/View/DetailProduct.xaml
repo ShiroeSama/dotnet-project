@@ -7,10 +7,24 @@
              xmlns:local="clr-namespace:ShirOSApp.View"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <UserControl.DataContext>
-        <vm:DetailProductVM></vm:DetailProductVM>
-    </UserControl.DataContext>
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.ColumnSpan="4" FontWeight="Bold">Fiche Produit</Label>
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Vertical">
+            <Label>Code du produit :</Label>
+            <TextBox Text="{Binding Code}"></TextBox>
+            <Label>Nom du produit : </Label>
+            <TextBox Text="{Binding Nom}"></TextBox>
+        </StackPanel>
     </Grid>
 </UserControl>

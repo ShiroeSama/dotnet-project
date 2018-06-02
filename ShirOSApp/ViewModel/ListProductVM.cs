@@ -15,15 +15,15 @@ namespace ShirOSApp.ViewModel
     public class ListProductVM : BaseVM
     {
         protected ProductRepository repository;
-        protected ObservableCollection<DetailProduitVM> products = null;
-        protected DetailProduitVM selectedProduct;
+        protected ObservableCollection<DetailProductVM> products = null;
+        protected DetailProductVM selectedProduct;
         
         public ListProductVM()
         {
             this.repository = new ProductRepository();
             List<Product> products = this.repository.List();
 
-            this.products = new ObservableCollection<DetailProduitVM>(ProductBuilder.ConvertProductListToDetailProductVMList(products));
+            this.products = new ObservableCollection<DetailProductVM>(ProductBuilder.ConvertProductListToDetailProductVMList(products));
 
             if (this.products != null && this.products.Count > 0)
             {
@@ -32,7 +32,7 @@ namespace ShirOSApp.ViewModel
         }
         
    
-        public ObservableCollection<DetailProduitVM> Products
+        public ObservableCollection<DetailProductVM> Products
         {
             get { return this.products; }
             set
@@ -42,7 +42,7 @@ namespace ShirOSApp.ViewModel
             }
         }
 
-        public DetailProduitVM SelectedProduct
+        public DetailProductVM SelectedProduct
         {
             get { return this.selectedProduct; }
             set

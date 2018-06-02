@@ -11,13 +11,13 @@ namespace ShirOSApp.Service.Builder
 
     public static class ProductBuilder
     {
-        public static List<DetailProduitVM> ConvertProductListToDetailProductVMList(List<Product> products)
+        public static List<DetailProductVM> ConvertProductListToDetailProductVMList(List<Product> products)
         {
-            List<DetailProduitVM> list = new List<DetailProduitVM>();
+            List<DetailProductVM> list = new List<DetailProductVM>();
 
             foreach (Product product in products)
             {
-                list.Add(new DetailProduitVM(product));
+                list.Add(new DetailProductVM(product));
             }
 
             return list;

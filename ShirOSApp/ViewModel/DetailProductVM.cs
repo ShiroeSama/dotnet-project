@@ -9,11 +9,11 @@ namespace ShirOSApp.ViewModel
     using Common;
     using Model.Entity.Product;
 
-    public class DetailProduitVM : BaseVM
+    public class DetailProductVM : BaseVM
     {
         protected Product product;
        
-        public DetailProduitVM(Product product)
+        public DetailProductVM(Product product)
         {
             this.product = product;
         }
@@ -22,6 +22,12 @@ namespace ShirOSApp.ViewModel
         {
             get { return this.product.Label; }
             set { this.product.Label = value; }
+        }
+
+        public string Code
+        {
+            get { return this.product.Code; }
+            set { this.product.Code = value; }
         }
     }
 }

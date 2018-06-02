@@ -10,3 +10,12 @@ U:\Cours\DotNet\ProjectDotNet\Model\bin\Debug\EntityFramework.SqlServer.xml
 U:\Cours\DotNet\ProjectDotNet\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 U:\Cours\DotNet\ProjectDotNet\Model\obj\Debug\Model.dll
 U:\Cours\DotNet\ProjectDotNet\Model\obj\Debug\Model.pdb
+U:\Cours\DotNet\dotnet-project\Model\bin\Debug\Model.dll.config
+U:\Cours\DotNet\dotnet-project\Model\bin\Debug\Model.dll
+U:\Cours\DotNet\dotnet-project\Model\bin\Debug\Model.pdb
+U:\Cours\DotNet\dotnet-project\Model\bin\Debug\EntityFramework.dll
+U:\Cours\DotNet\dotnet-project\Model\bin\Debug\EntityFramework.SqlServer.dll
+U:\Cours\DotNet\dotnet-project\Model\bin\Debug\EntityFramework.xml
+U:\Cours\DotNet\dotnet-project\Model\bin\Debug\EntityFramework.SqlServer.xml
+U:\Cours\DotNet\dotnet-project\Model\obj\Debug\Model.dll
+U:\Cours\DotNet\dotnet-project\Model\obj\Debug\Model.pdb

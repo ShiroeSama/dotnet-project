@@ -10,7 +10,18 @@
     <UserControl.DataContext>
         <vm:ListProductVM></vm:ListProductVM>
     </UserControl.DataContext>
+
     <Grid>
-            
+        <DockPanel>
+            <ListView DockPanel.Dock="Left" Width="250" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5px" ItemsSource="{Binding Products, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedProduct, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Label" DisplayMemberBinding="{Binding Label}" />
+                        <GridViewColumn Header="Code" DisplayMemberBinding="{Binding Code}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <local:DetailProduct Margin="5px" DataContext="{Binding SelectedProduct, UpdateSourceTrigger=PropertyChanged}"></local:DetailProduct>
+        </DockPanel>
     </Grid>
 </UserControl>

@@ -10,6 +10,17 @@ namespace ShirOSApp.ViewModel
 
     public class HomeVM : BaseVM
     {
-        
+        protected ListProductVM listProductVM = null;
+
+        public HomeVM()
+        {
+            this.listProductVM = new ListProductVM();
+        }
+
+        public ListProductVM ListProductVM
+        {
+            get { return listProductVM; }
+            set { listProductVM = value; }
+        }
     }
 }

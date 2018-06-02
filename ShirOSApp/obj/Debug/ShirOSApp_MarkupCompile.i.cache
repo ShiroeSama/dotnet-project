@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-U:\Cours\DotNet\ProjectDotNet\ShirOSApp\obj\Debug\
+U:\Cours\DotNet\dotnet-project\ShirOSApp\obj\Debug\
 ShirOSApp
 none
 false
 DEBUG;TRACE
-U:\Cours\DotNet\ProjectDotNet\ShirOSApp\App.xaml
+U:\Cours\DotNet\dotnet-project\ShirOSApp\App.xaml
 3-121151006
 
 16359036447
-171297876389
+171634847279
 MainWindow.xaml;View\DetailProduct.xaml;View\ListProduct.xaml;
 
 False

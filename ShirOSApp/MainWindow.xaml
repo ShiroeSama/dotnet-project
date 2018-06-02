@@ -6,11 +6,11 @@
         xmlns:view="clr-namespace:ShirOSApp.View"
         xmlns:local="clr-namespace:ShirOSApp"
         mc:Ignorable="d"
-        Title="MasterDetail" Height="350" Width="525">
+        Title="MasterDetail" Height="350" Width="650">
     <Grid>
         <DockPanel>
             <Label DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10">List Product</Label>
-            <view:ListProduct DockPanel.Dock="Left" DataContext="{Binding ListProductVM}"></view:ListProduct>
+            <view:ListProduct VerticalAlignment="Center"></view:ListProduct>
         </DockPanel>
     </Grid>
 </Window>
