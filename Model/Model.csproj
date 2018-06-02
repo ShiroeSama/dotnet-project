@@ -81,6 +81,7 @@
     <Compile Include="Repository\Product\LogProductRepository.cs" />
     <Compile Include="Repository\Product\ProductRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Service\Builder\CommandBuilder.cs" />
     <Compile Include="Service\Builder\ProductBuilder.cs" />
   </ItemGroup>
   <ItemGroup>

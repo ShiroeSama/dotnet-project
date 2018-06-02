@@ -24,5 +24,11 @@ namespace Model.Repository.Product
             // return this.Context.Product.ToList();
             return ProductBuilder.createList();
         }
+
+        public int GetStock(String code)
+        {
+            List<Product> products = ProductBuilder.createList();
+            return products.Where(product => product.Code == code).Select(product => product.Stock).First();
+        }
     }
 }

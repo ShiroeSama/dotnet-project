@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Model.Repository.Command
 {
     using Entity.Command;
+    using Service.Builder;
 
     public class CommandRepository : Repository
     {
@@ -16,6 +17,11 @@ namespace Model.Repository.Command
             this.Context.SaveChanges();
 
             return command;
+        }
+
+        public List<Command> List()
+        {
+            return CommandBuilder.createList();
         }
     }
 }

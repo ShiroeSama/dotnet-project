@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirOSApp", "ShirOSApp\ShirOSApp.csproj", "{40C649DC-2C84-4316-B774-F4FF9A97F6F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceWCF", "ServiceWCF\ServiceWCF.csproj", "{6A466CAF-E5B9-476C-8E80-B60BA1BE82CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{40C649DC-2C84-4316-B774-F4FF9A97F6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C649DC-2C84-4316-B774-F4FF9A97F6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C649DC-2C84-4316-B774-F4FF9A97F6F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A466CAF-E5B9-476C-8E80-B60BA1BE82CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A466CAF-E5B9-476C-8E80-B60BA1BE82CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A466CAF-E5B9-476C-8E80-B60BA1BE82CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A466CAF-E5B9-476C-8E80-B60BA1BE82CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

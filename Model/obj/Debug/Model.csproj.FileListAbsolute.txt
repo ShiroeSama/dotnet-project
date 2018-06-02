@@ -19,3 +19,4 @@ U:\Cours\DotNet\dotnet-project\Model\bin\Debug\EntityFramework.xml
 U:\Cours\DotNet\dotnet-project\Model\bin\Debug\EntityFramework.SqlServer.xml
 U:\Cours\DotNet\dotnet-project\Model\obj\Debug\Model.dll
 U:\Cours\DotNet\dotnet-project\Model\obj\Debug\Model.pdb
+U:\Cours\DotNet\dotnet-project\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
